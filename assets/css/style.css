@@ -132,6 +132,7 @@ section{
         linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
+    z-index: 3;
 }
 .percent {
     font-family: 'Poppins', sans-serif;
@@ -227,6 +228,8 @@ th {
 
 .overflowAuto {
     overflow: auto;
+    z-index: 99;
+    position: relative;
 }
 
 .sedd {
